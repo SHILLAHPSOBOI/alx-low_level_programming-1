@@ -6,9 +6,9 @@
 
 int main(void)
 {
-int:[D i:
-i = 0:
+int i;
+i = 0;
 
 positive_or_negative(i);
-return (0);[A[A[A[D[D[D[D[;[;[B[B[B[B[C[C[C[C[C
+return (0);
 }
