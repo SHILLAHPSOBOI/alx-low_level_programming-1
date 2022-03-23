@@ -1,12 +1,16 @@
 #include "main.h
+
 /**
  * separators - checks and ensure that all string is capitalized
  * @c: character to be checked
  * Return: if separator return 1. Otherwise return 0;
  */
+
+
 int separator(char c)
 {
-switch (c)
+
+  switch (c)
 {
 case ' ':
 case '\t':
