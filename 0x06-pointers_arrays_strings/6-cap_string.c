@@ -10,7 +10,7 @@
 int separator(char c)
 {
 
-  switch (c)
+switch (c)
 {
 case ' ':
 case '\t':
