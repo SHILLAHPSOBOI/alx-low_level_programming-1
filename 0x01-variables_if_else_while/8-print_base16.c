@@ -1,25 +1,21 @@
 #include <stdio.h>
 /**
- * main - entry point
+ * main - Print all numbers of base 16 in lowercase
  *
- * Return: Always 0 (success/correct)
+ * Return: 0 (Success)
  */
 int main(void)
-
 {
-char base_16;
+	int i;
 
-for (base_16 = 48; base_16 <= 57; base_16++)
-{putchar(base_16);
-}
-
-for (base_16 = 97 ; base_16 <= 102; base_16++)
-{
-putchar(base_16);
-}
-
-putchar ('\n');
-
-return (0);
-
+	for (i = 48; i < 58; i++)
+	{
+		putchar(i);
+	}
+	for (i = 'a'; i <= 'f'; i++)
+	{
+		putchar(i);
+	}
+	putchar('\n');
+	return (0);
 }
