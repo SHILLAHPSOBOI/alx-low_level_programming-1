@@ -1,9 +1,9 @@
-#include "holberton.h"
-#include <stdio.h>
+#include "main.h"
+
 /**
- * set_string - set value
- * @s: square matrix to find sum of
- * @to: size of square matrix
+ * set_string - sets the value of a pointer to a char
+ * @s: pointer to pointer we need to set to
+ * @to: string to set
  */
 void set_string(char **s, char *to)
 {
