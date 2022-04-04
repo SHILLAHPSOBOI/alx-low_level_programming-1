@@ -1,5 +1,6 @@
 #include "holberton.h"
 #include <stdlib.h>
+
 /**
  * _strdup - returns a pointer to dup string, new allocated memory
  * @str: string to copy
