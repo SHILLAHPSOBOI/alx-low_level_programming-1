@@ -6,17 +6,17 @@ int main(void)
 char alphabet;
 char ALPHABET;
 
-  while (alphabet = 'a'; alphabet <= 'z')
- 
+  while (alphabet = 'a'; alphabet <= 'z' alphabet++)
+  {
 	  putchar(alphabet);
-		  alphabet++;
+  }
 	  
-  while (ALPHABET = 'A'; ALPHABET <= 'Z')
-  
+  while (ALPHABET = 'A'; ALPHABET <= 'Z' ALPHABET++)
+  {
 	  putchar (ALPHABET);
-		  ALPHABET++;
+  }
 
-  
+ 
   putchar('\n');
 
 
