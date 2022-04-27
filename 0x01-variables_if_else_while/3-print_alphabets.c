@@ -8,18 +8,18 @@ char ALPHABET;
 
   while (alphabet = 'a'; alphabet <= 'z')
   {
-	  putchar(alphabet)
+	  putchar(alphabet);
 		  alphabet++;
   }
   while (ALPHABET = 'A'; ALPHABET <= 'Z')
   {
-	  putchar (ALPHABET)
+	  putchar (ALPHABET);
 		  ALPHABET++;
 
   }
 
 
-  putchar ('\n');
+  putchar('\n');
 
 
   return (0);
