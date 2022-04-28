@@ -1,28 +1,33 @@
 #include "holberton.h"
-
 /**
- * print_binary - prints the binary representation of a number
- * @n: the number to print in binary
+ * print_binary - Entry Point
+ * @n: dec input
+ * Return: 0
  */
 void print_binary(unsigned long int n)
 {
-	int c, k;
-	int flag = 0;
+	int i = 0, count, k, temp;
 
 	if (n == 0)
 	{
-		_putchar('0');
+		printf("0");
 		return;
 	}
-	for (c = 63; c >= 0; c--)
+
+	temp = n;
+
+	while (temp != 0)
 	{
-		k = n >> c;
+		i++;
+		temp = temp >> 1;
+	}
+
+	for (count = i - 1; count >= 0; count--)
+	{
+		k = n >> count;
 		if (k & 1)
-		{
-			flag = 1;
-			_putchar('1');
-		}
-		else if (flag == 1)
-			_putchar('0');
+			printf("1");
+		else
+			printf("0");
 	}
 }
