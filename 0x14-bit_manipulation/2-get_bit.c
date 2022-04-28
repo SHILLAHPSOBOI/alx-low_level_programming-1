@@ -1,20 +1,15 @@
 #include "holberton.h"
 
 /**
- * get_bit - returns the value of a bit at an index in a decimal number
- * @n: number to search
- * @index: index of the bit
+ * get_bit - returns the value of a bit at a given index
+ * @n: number to find the bit of
+ * @index: index, starting from 0 of the bit you want to get
  *
- * Return: value of the bit
+ * Return: the value of a bit at a given index
  */
 int get_bit(unsigned long int n, unsigned int index)
 {
-	int bit_val;
-
 	if (index > 63)
 		return (-1);
-
-	bit_val = (n >> index) & 1;
-
-	return (bit_val);
+	return (n >> index & 1);
 }
